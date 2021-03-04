@@ -17,7 +17,7 @@ class firebase{
     constructor(){
 
         app.initializeApp(config)
-        this.db=app.firestore
+        this.db=app.firestore()
 
 
 
